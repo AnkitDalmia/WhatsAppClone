@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_menu_setting"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/main_menu_create_group"
+        android:title="Make a Group" />
+
+    <item
+        android:id="@+id/main_menu_signout"
+        android:title="Logout" />
+
+
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chat_buuble_recever"
+    android:orientation="vertical"
+    android:layout_margin="7dp"
+    android:maxWidth="310dp"
+    android:maxHeight="400dp"
+    android:minHeight="30dp"
+    android:padding="10dp"
+    android:paddingBottom="10dp">
+
+
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+        android:id="@+id/sample_receiver_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textLongMessage|textMultiLine"
+        android:maxWidth="270dp"
+        android:textColor="@color/black"
+        android:minWidth="50dp"
+        android:text="Hello zifnkefn"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/receiver_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/receiver_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:45AM"
+        android:textSize="13sp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
